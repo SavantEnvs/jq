@@ -1,0 +1,1 @@
+ltrimstr("a") | ascii_downcase

@@ -1,0 +1,9 @@
+project: savantenvs/jq
+target: jq_fuzz_parse
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/jq_fuzz_parse/testsuite
+cmds:
+  - cmd: /mayhem/jq_fuzz_parse
+    libfuzzer: true
+    timeout: 5

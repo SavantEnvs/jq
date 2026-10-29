@@ -1,0 +1,1 @@
+label $out | foreach .[] as $i (0; .+$i; if . > 3 then ., break $out else . end)\!{"a":[1,2,3],"b":"x"}\![1,2]

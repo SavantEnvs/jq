@@ -1,0 +1,1 @@
+label $out | foreach .[] as $i (0; .+$i; if . > 3 then ., break $out else . end)

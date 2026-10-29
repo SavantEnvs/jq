@@ -1,0 +1,1 @@
+ltrimstr("a") | ascii_downcase\!{"a":[1,2,3],"b":"x"}\![1,2]

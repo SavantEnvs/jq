@@ -1,0 +1,1 @@
+if . then 1 elif . == 2 then 3 else 4 end
